@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="330dp"
+    android:layout_height="278dp">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@drawable/dialogbox_background"
+
+>
+
+    <TextView
+        android:layout_width="264dp"
+        android:layout_height="51dp"
+        android:text="Do you want to sign out of YourTask?"
+        android:layout_marginLeft="34dp"
+        android:textColor="#303030"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="49dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:text="You sure, that you want to logout?"
+        android:layout_marginLeft="34dp"
+        android:textColor="#C2C2C2"
+        android:textSize="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="7dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNo"
+        android:text="No"
+        android:textColor="#FFC300"
+        android:textSize="16dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnYes"
+        android:text="Yes"
+        android:layout_marginLeft="34dp"
+        android:textColor="#FFC300"
+        android:textSize="16dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="33dp"
+        ></TextView>
+
+   </LinearLayout>
+</LinearLayout>

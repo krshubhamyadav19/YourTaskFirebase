@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Screens.UpdatDataActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="#ffff"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_email_forgot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dscription"
+        android:textColor="#ffff"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/etUpdateDes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etUpdateTitle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/drawable_rectangular_white_stroke_bg"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/etUpdateDes"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/drawable_rectangular_white_stroke_bg"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUpdateTitle" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="sans-serif"
+        android:text="Update"
+        android:textColor="#ffff"
+        android:textSize="56sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif"
+        android:text="Your Data"
+        android:textColor="#ffff"
+        android:textSize="46sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="224dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Make a change !"
+        android:textColor="#adadac"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#ffff"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/etUpdateTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_email_forgot"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/drawable_rectangular_white_stroke_bg"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textColor="#ffff"
+        android:textColorHint="#adadac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUpdateDes" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/layout_btn_submit"
+        android:text="Rest Password"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
